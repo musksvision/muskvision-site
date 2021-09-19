@@ -1,0 +1,164 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+body {
+    font-family: 'GlacialIndifferenceRegular';
+    font-size: 20px;
+    font-weight: 300;
+    color: rgb(3, 0, 0);
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+header {
+    font-family: 'Cantora One', sans-serif;
+    font-size : 20px;
+    text-transform: uppercase;
+    color:white;
+}
+
+.nav-link, a
+{
+    color:#F2F2F2;
+}
+
+a:hover, .active
+{
+    color: #bfbfbf;
+}
+
+h1.mv-heading1{
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: left;
+    padding-left: 5px;
+}
+
+h2.mv-heading2
+{
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+}
+
+h2.mv-heading2-large
+{
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    font-size: 50px;
+    color: black;
+    font-weight: bold;
+}
+
+
+.mv-icons{
+    width:100px;
+    height:100px;
+}
+
+.mv-icon-large{
+    width:200px;
+    height:200px;
+}
+
+.mv-description{
+    font-size:normal;
+    
+}
+
+.mv-description-large{
+    font-size:larger;
+
+}
+
+#mv-copy-button
+{
+    color:rgb(0, 120, 38);
+}
+
+#mv-home::before,
+#mv-tokenomics::before,
+#mv-buy::before,
+#mv-vision::before,
+#mv-tokeninfo::before,
+#mv-comm::before,
+#mv-contact::before {
+display: block;
+content: " ";
+margin-top: -110px;
+height: 110px;
+visibility: hidden;
+}
+
+@media (min-width: 576px) {
+  .position-sm-static {
+    position: static !important;
+  }
+  .position-sm-relative {
+    position: relative !important;
+  }
+  .position-sm-absolute {
+    position: absolute !important;
+  }
+  .position-sm-fixed {
+    position: fixed !important;
+  }
+  .position-sm-sticky {
+    position: sticky !important;
+  }
+}
+@media (min-width: 768px) {
+  .position-md-static {
+    position: static !important;
+  }
+  .position-md-relative {
+    position: relative !important;
+  }
+  .position-md-absolute {
+    position: absolute !important;
+  }
+  .position-md-fixed {
+    position: fixed !important;
+  }
+  .position-md-sticky {
+    position: sticky !important;
+  }
+}
+
+@media (min-width: 992px) {
+  .position-lg-static {
+    position: static !important;
+  }
+  .position-lg-relative {
+    position: relative !important;
+  }
+  .position-lg-absolute {
+    position: absolute !important;
+  }
+  .position-lg-fixed {
+    position: fixed !important;
+  }
+  .position-lg-sticky {
+    position: sticky !important;
+  }
+}
+
+@media (min-width: 1200px) {
+  .position-xl-static {
+    position: static !important;
+  }
+  .position-xl-relative {
+    position: relative !important;
+  }
+  .position-xl-absolute {
+    position: absolute !important;
+  }
+  .position-xl-fixed {
+    position: fixed !important;
+  }
+  .position-xl-sticky {
+    position: sticky !important;
+  }
+}
