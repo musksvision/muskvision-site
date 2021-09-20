@@ -18,6 +18,13 @@ header, footer {
     color:white;
 }
 
+#particles-js {
+  position : absolute;
+  width:100%;
+  height:70%;
+  /* z-index:-1; */
+}
+
 .nav-link, a
 {
     color:#F2F2F2;
