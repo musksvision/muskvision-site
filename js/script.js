@@ -1,6 +1,7 @@
 $(".navbar-nav li a").click(function(){
     $(".navbar-nav li a").removeClass("active");
     $(this).addClass("active");
+    $(".navbar-collapse").collapse("hide");
   });
 
 function copyToClipboard() {
