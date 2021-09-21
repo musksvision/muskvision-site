@@ -118,12 +118,6 @@ visibility: hidden;
 
 body,
 header,
-#mv-home,
-#mv-tokenomics,
-#mv-buy,
-#mv-vision,
-#mv-tokeninfo,
-#mv-comm,
 footer{
   width: 100%;
   overflow-x: hidden;
