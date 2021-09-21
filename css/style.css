@@ -70,12 +70,16 @@ h2.mv-heading2-large
 }
 
 .mv-icon-large-1{
-    width:350px;
+    width:300px;
 }
 
 .mv-icon-large-2{
     width:250px;
     height:250px;
+}
+
+.mv-buy-img{
+  width:85%;
 }
 
 .mv-description{
