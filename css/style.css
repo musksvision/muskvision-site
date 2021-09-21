@@ -102,6 +102,22 @@ visibility: hidden;
 #mv-contract-address
 {
   font-size: 19px;
+  display:block;
+  width:100%;
+  word-wrap:break-word;
+}
+
+body,
+header,
+#mv-home,
+#mv-tokenomics,
+#mv-buy,
+#mv-vision,
+#mv-tokeninfo,
+#mv-comm,
+footer{
+  width: 100%;
+  overflow-x: hidden;
 }
 
 @media (min-width: 576px) {
