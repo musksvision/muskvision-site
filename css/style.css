@@ -11,6 +11,11 @@ body {
     text-align: center;
 }
 
+.muskvision-header
+{
+  height: 100px;
+}
+
 header, footer {
     font-family: 'Cantora One', sans-serif;
     font-size : 20px;
@@ -26,8 +31,8 @@ header, footer {
 
 #particles-js {
   position : absolute;
-  width:93%;
-  height:70%;
+  width:100%;
+  height:80%;
   /* z-index:-1; */
 }
 
@@ -42,25 +47,23 @@ a:hover, .active
     color: #bfbfbf;
 }
 
-h1.mv-heading1{
+h2.mv-heading2{
     text-transform: uppercase;
     font-weight: bold;
     text-align: left;
     padding-left: 5px;
 }
 
-h2.mv-heading2
+h3.mv-heading3
 {
     font-family: 'Oswald', sans-serif;
-    color: black;
     font-weight: bold;
 }
 
-h2.mv-heading2-large
+h3.mv-heading3-large
 {
     font-family: 'Oswald', sans-serif;
     font-size: 50px;
-    color: black;
     font-weight: bold;
 }
 
@@ -100,7 +103,7 @@ h2.mv-heading2-large
 
 #mv-copy-button
 {
-    color:rgb(0, 120, 38);
+    color:rgb(255, 255, 255);
     cursor: pointer;
 }
 
@@ -113,8 +116,8 @@ h2.mv-heading2-large
 #mv-contact::before {
 display: block;
 content: " ";
-margin-top: -110px;
-height: 110px;
+/* margin-top: -110px; */
+/* height: 110px; */
 visibility: hidden;
 }
 
@@ -178,73 +181,66 @@ footer{
   opacity: 50%;
 }
 
-@media (min-width: 576px) {
-  .position-sm-static {
-    position: static !important;
-  }
-  .position-sm-relative {
-    position: relative !important;
-  }
-  .position-sm-absolute {
-    position: absolute !important;
-  }
-  .position-sm-fixed {
-    position: fixed !important;
-  }
-  .position-sm-sticky {
-    position: sticky !important;
-  }
-}
-@media (min-width: 768px) {
-  .position-md-static {
-    position: static !important;
-  }
-  .position-md-relative {
-    position: relative !important;
-  }
-  .position-md-absolute {
-    position: absolute !important;
-  }
-  .position-md-fixed {
-    position: fixed !important;
-  }
-  .position-md-sticky {
-    position: sticky !important;
-  }
+.mv-main-tokeninfo{
+  background-image: url("https://musksvision.com/img/info-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:100%;
+  background-attachment: fixed;
 }
 
-@media (min-width: 992px) {
-  .position-lg-static {
-    position: static !important;
-  }
-  .position-lg-relative {
-    position: relative !important;
-  }
-  .position-lg-absolute {
-    position: absolute !important;
-  }
-  .position-lg-fixed {
-    position: fixed !important;
-  }
-  .position-lg-sticky {
-    position: sticky !important;
-  }
+.mv-main-tokenomics{
+  background-image: url("https://musksvision.com/img/tokenomics-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height:100%;
 }
 
-@media (min-width: 1200px) {
-  .position-xl-static {
-    position: static !important;
-  }
-  .position-xl-relative {
-    position: relative !important;
-  }
-  .position-xl-absolute {
-    position: absolute !important;
-  }
-  .position-xl-fixed {
-    position: fixed !important;
-  }
-  .position-xl-sticky {
-    position: sticky !important;
-  }
+.mv-main-community{
+  background-image: url("https://musksvision.com/img/community-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height:100%;
+  width: 100%;
+}
+
+.mv-main-htb{
+  /* background-image: url("https://musksvision.com/img/htb-bg.png"); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height:100%;
+}
+
+.mv-main-mission
+{
+  background-image: url("https://musksvision.com/img/vision-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height:100%;
+}
+
+.muskvision-tokeninfo{
+  color: white;
+}
+
+.muskvision-home,
+.muskvision-tokeninfo
+{
+  padding: 0% 2% 10% 2%;
+}
+
+.mv-main-tokenomics,
+.muskvision-buy,
+.mv-main-mission,
+.muskvision-community
+{
+  padding: 0% 2% 4% 2%;
+}
+
+.mv-transaction-home{
+  padding: 0% 2% 4% 2%;
 }
