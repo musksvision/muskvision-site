@@ -19,9 +19,9 @@ header, footer {
 }
 
 .footer-copyright {
-    text-transform: none;
-    font-size : 17px;
-    font-family: 'GlacialIndifferenceRegular';
+    text-transform:none;
+    font-size:17px;
+    font-family:'GlacialIndifferenceRegular';
 }
 
 #particles-js {
