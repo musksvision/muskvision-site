@@ -1,9 +1,3 @@
-// $(".navbar-nav li a").click(function(){
-//     $(".navbar-nav li a").removeClass("active");
-//     $(this).addClass("active");
-//     $(".navbar-collapse").collapse("hide");
-//   });
-
 function scroll_to(clicked_link, nav_height) {
   var element_class = clicked_link.attr('href');
   var scroll_to = 0;
@@ -12,7 +6,7 @@ function scroll_to(clicked_link, nav_height) {
     scroll_to = $(element_class).offset().top - nav_height;
   }
   if($(window).scrollTop() != scroll_to) {
-    $('html, body').stop().animate({scrollTop: scroll_to}, 250);
+      $('html, body').stop().animate({scrollTop: scroll_to}, 100);
   }
 }
 
