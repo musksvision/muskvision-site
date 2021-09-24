@@ -244,3 +244,11 @@ footer{
 .mv-transaction-home{
   padding: 0% 2% 4% 2%;
 }
+
+.token-info-heading{
+  padding: 3% 0% 2% 0%;   
+}
+
+.token-info-description{
+  padding: 2% 0% 3% 0%;  
+}
