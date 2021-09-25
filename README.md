@@ -1,2 +1,2 @@
 # muskvision-site
-Official Website of Musk Vision Token
+The official Website of Musk Vision Token: A deflationary community token on Binance Chain Network.
