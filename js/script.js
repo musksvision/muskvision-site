@@ -1,5 +1,13 @@
-function scroll_to(clicked_link, nav_height) {
-  var element_class = clicked_link.attr('href');
+var div_url = "#" + window.location.href.split("#")[1]
+scroll_to(div_url, 100, flag=true);
+
+function scroll_to(clicked_link, nav_height, flag=false) {
+  if (flag == false) {
+    var element_class = clicked_link.attr('href');
+  }
+  else {
+    var element_class = clicked_link;
+  }
   var scroll_to = 0;
   console.log(element_class);
   if(element_class != '#mv-home') {
