@@ -283,85 +283,29 @@ transform: scale(1.05);
 @media (max-width: 576px) {
 
   .mv-main-tokeninfo::before{
-    content: "";
-    display: block;
-    position: fixed;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -10;
-    background-image: url("https://musksvision.com/img/info-bg.png") no-repeat center center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
+    background-image: url("https://musksvision.com/img/info-bg.png");
     background-size: cover;
   }
 
   .mv-main-tokenomics::before{
-    content: "";
-    display: block;
-    position: fixed;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -10;
-    background-image: url("https://musksvision.com/img/tokenomics-bg-sm.png") no-repeat center center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
+    background-image: url("https://musksvision.com/img/tokenomics-bg-sm.png");
     background-size: cover;
     color: white;
   }
   
   .mv-main-community::before{
-    content: "";
-    display: block;
-    position: fixed;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -10;
-    background-image: url("https://musksvision.com/img/community-bg-sm.png") no-repeat center center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
+    background-image: url("https://musksvision.com/img/community-bg-sm.png");
     background-size: cover;
   }
   
   .mv-main-htb::before{
-    content: "";
-    display: block;
-    position: fixed;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -10;
-    background-image: url("https://musksvision.com/img/htb-bg-sm.png") no-repeat center center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
+    background-image: url("https://musksvision.com/img/htb-bg-sm.png");
     background-size: cover;
     color: white;
   }
   
-  .mv-main-mission::before
-  {
-    content: "";
-    display: block;
-    position: fixed;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -10;
-    background-image: url("https://musksvision.com/img/vision-bg-sm.png") no-repeat center center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
+  .mv-main-mission::before{
+    background-image: url("https://musksvision.com/img/vision-bg-sm.png");
     background-size: cover;
     color: white;
   }
