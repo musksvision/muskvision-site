@@ -282,25 +282,25 @@ transform: scale(1.05);
 /* Small devices (landscape phones, 576px and up) */
 @media (max-width: 600px) {
 
-  .mv-main-tokeninfo::before{
+  .mv-main-tokeninfo{
     background-image: url("https://musksvision.com/img/info-bg.png");
   }
 
-  .mv-main-tokenomics::before{
+  .mv-main-tokenomics{
     background-image: url("https://musksvision.com/img/tokenomics-bg-sm.png");
     color: white;
   }
   
-  .mv-main-community::before{
+  .mv-main-community{
     background-image: url("https://musksvision.com/img/community-bg-sm.png");
   }
   
-  .mv-main-htb::before{
+  .mv-main-htb{
     background-image: url("https://musksvision.com/img/htb-bg-sm.png");
     color: white;
   }
   
-  .mv-main-mission::before{
+  .mv-main-mission{
     background-image: url("https://musksvision.com/img/vision-bg-sm.png");
     color: white;
   }
