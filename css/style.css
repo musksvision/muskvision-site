@@ -284,26 +284,36 @@ transform: scale(1.05);
 
   .mv-main-tokeninfo{
     background-image: url("https://musksvision.com/img/info-bg-sm.png");
+    background-size: unset;
+    background-attachment: unset;
     color: white;
   }
 
   .mv-main-tokenomics{
     background-image: url("https://musksvision.com/img/tokenomics-bg-sm.png");
     width: 100%;
+    background-size: unset;
+    background-attachment: unset;
   }
   
   .mv-main-community{
     background-image: url("https://musksvision.com/img/community-bg-sm.png");
+    background-size: unset;
+    background-attachment: unset;
   }
   
   .mv-main-htb{
     background-image: url("https://musksvision.com/img/htb-bg-sm.png");
     color: white;
+    background-size: unset;
+    background-attachment: unset;
   }
   
   .mv-main-mission{
     background-image: url("https://musksvision.com/img/vision-bg-sm.png");
     color: white;
+    background-size: unset;
+    background-attachment: unset;
   }
  }
 
