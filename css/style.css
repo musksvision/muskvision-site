@@ -252,7 +252,7 @@ footer{
 
 .mv-transaction-home{
   padding: 0% 2% 4% 2%;
-  height: 500px;
+  height: 50%;
 }
 
 .token-info-heading{
@@ -281,8 +281,48 @@ transform: scale(1.05);
 
 /* Small devices (landscape phones, 576px and up) */
 @media (max-width: 576px) { 
+  .mv-main-tokeninfo{
+    background-image: url("https://musksvision.com/img/info-bg-sm.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:100%;
+    background-attachment: fixed;
+  }
+  
   .mv-main-tokenomics{
-    background-size: auto;
+    background-image: url("https://musksvision.com/img/tokenomics-bg-sm.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height:100%;
+  }
+  
+  .mv-main-community{
+    background-image: url("https://musksvision.com/img/community-bg-sm.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height:100%;
+    width: 100%;
+  }
+  
+  .mv-main-htb{
+    background-image: url("https://musksvision.com/img/htb-bg-sm.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height:100%;
+    color: white;
+  }
+  
+  .mv-main-mission
+  {
+    background-image: url("https://musksvision.com/img/vision-bg-sm.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height:100%;
+    color: white;
   }
  }
 
