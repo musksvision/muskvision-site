@@ -289,6 +289,7 @@ transform: scale(1.05);
 
   .mv-main-tokenomics{
     background-image: url("https://musksvision.com/img/tokenomics-bg-sm.png");
+    width: 100%;
   }
   
   .mv-main-community{
