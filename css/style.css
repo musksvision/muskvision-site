@@ -92,8 +92,13 @@ h3.mv-heading3-large
 }
 
 .mv-description{
-    font-size:normal;
+  font-size:larger;
     
+}
+
+.mv-description-htb{
+  padding: 3% 0% 3% 6%;
+  text-align: left;
 }
 
 .mv-description-large{
@@ -212,6 +217,7 @@ footer{
   background-size: cover;
   background-attachment: fixed;
   height:100%;
+  color: white;
 }
 
 .mv-main-mission
@@ -221,13 +227,17 @@ footer{
   background-size: cover;
   background-attachment: fixed;
   height:100%;
+  color: white;
 }
 
 .muskvision-tokeninfo{
   color: white;
 }
 
-.muskvision-home,
+.muskvision-home{
+  padding: 0% 2% 7% 2%;
+}
+    
 .muskvision-tokeninfo
 {
   padding: 0% 2% 10% 2%;
@@ -248,3 +258,24 @@ footer{
 .token-info-heading{
   padding: 2% 0% 0% 0%;   
 }
+
+.htb-feature-box {
+max-width: 360px;
+min-height: 670px;
+border-radius: 20px;
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+transition:all 0.3s ease;
+box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.08);
+position: relative;
+background-color: rgba(255, 255, 255, 0.2);
+padding: 3% 3% 3% 3%;
+}
+
+.htb-feature-box:hover {
+-webkit-transform: scale(1.05);
+-ms-transform: scale(1.05);
+transform: scale(1.05);
+}
+
