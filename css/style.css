@@ -281,7 +281,7 @@ transform: scale(1.05);
 
 /* Small devices (landscape phones, 576px and up) */
 @media (max-width: 576px) {
-  .mv-main-tokenomics{
+  .mv-main-tokenomics::before{
     /* content: ""; */
     /* display: block; */
     /* position: fixed; */
@@ -298,7 +298,7 @@ transform: scale(1.05);
     color: white;
   }
 
-  .mv-main-mission
+  .mv-main-mission::before
   {
     /* content: ""; */
     /* display: block; */
