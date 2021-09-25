@@ -253,6 +253,7 @@ footer{
 
 .mv-transaction-home{
   padding: 0% 2% 4% 2%;
+  height: 500px;
 }
 
 .token-info-heading{
@@ -278,4 +279,27 @@ padding: 3% 3% 3% 3%;
 -ms-transform: scale(1.05);
 transform: scale(1.05);
 }
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+  .mv-main-tokenomics{
+    background-size: auto;
+  }
+ }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+
+ }
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+
+ }
 
