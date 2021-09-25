@@ -290,7 +290,7 @@ transform: scale(1.05);
     width: 100%;
     height: 100%;
     z-index: -10;
-    background: url("https://musksvision.com/img/info-bg.png") no-repeat center center;
+    background: url("https://musksvision.com/img/info-bg-sm.png") no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -311,33 +311,57 @@ transform: scale(1.05);
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    color: white;
   }
   
   .mv-main-community{
-    background-image: url("https://musksvision.com/img/community-bg-sm.png");
-    background-repeat: no-repeat;
-    background-size: auto;
-    background-attachment: fixed;
-    height:100%;
+    content: "";
+    display: block;
+    position: fixed;
+    left: 0;
+    top: 0;
     width: 100%;
+    height: 100%;
+    z-index: -10;
+    background: url("https://musksvision.com/img/community-bg-sm.png") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
   }
   
   .mv-main-htb{
-    background-image: url("https://musksvision.com/img/htb-bg-sm.png");
-    background-repeat: no-repeat;
-    background-size: auto;
-    background-attachment: fixed;
-    height:100%;
+    content: "";
+    display: block;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -10;
+    background: url("https://musksvision.com/img/htb-bg-sm.png") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     color: white;
   }
   
   .mv-main-mission
   {
-    background-image: url("https://musksvision.com/img/vision-bg-sm.png");
-    background-repeat: no-repeat;
-    background-size: auto;
-    background-attachment: fixed;
-    height:100%;
+    content: "";
+    display: block;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -10;
+    background: url("https://musksvision.com/img/vision-bg-sm.png") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     color: white;
   }
  }
