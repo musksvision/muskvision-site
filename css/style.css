@@ -321,7 +321,7 @@ transform: scale(1.05);
 
 /* Medium devices (tablets, 768px and up) */
 @media only screen and (min-width: 768px) and (max-width: 925px) { 
-  .mv-description-htb{
+  .htb-description{
     min-height: 530px;
   }
     
