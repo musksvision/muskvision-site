@@ -323,7 +323,7 @@ transform: scale(1.05);
 @media only screen and (min-width: 700px) and (max-width: 992px) { 
   
   .mv-main-tokeninfo{
-    background-image: url("https://musksvision.com/img/info-bg-sm.png");
+    background-image: url("https://musksvision.com/img/info-bg.png");
     background-size: unset;
     background-attachment: unset;
     color: white;
@@ -331,7 +331,7 @@ transform: scale(1.05);
   }
 
   .mv-main-tokenomics{
-    background-image: url("https://musksvision.com/img/tokenomics-bg-sm.png");
+    background-image: url("https://musksvision.com/img/tokenomics-bg.png");
     background-size: unset;
     background-attachment: unset;
     background-repeat: repeat-y;
@@ -345,7 +345,7 @@ transform: scale(1.05);
   }
   
   .mv-main-htb{
-    background-image: url("https://musksvision.com/img/htb-bg-sm.png");
+    background-image: url("https://musksvision.com/img/htb-bg.png");
     color: white;
     background-size: unset;
     background-attachment: unset;
