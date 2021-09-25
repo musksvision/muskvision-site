@@ -287,13 +287,14 @@ transform: scale(1.05);
     background-size: unset;
     background-attachment: unset;
     color: white;
+    background-repeat: repeat-y;
   }
 
   .mv-main-tokenomics{
     background-image: url("https://musksvision.com/img/tokenomics-bg-sm.png");
-    width: 100%;
     background-size: unset;
     background-attachment: unset;
+    background-repeat: repeat-y;
   }
   
   .mv-main-community{
@@ -307,6 +308,7 @@ transform: scale(1.05);
     color: white;
     background-size: unset;
     background-attachment: unset;
+    background-repeat: repeat-y;
   }
   
   .mv-main-mission{
