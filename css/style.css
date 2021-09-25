@@ -320,18 +320,44 @@ transform: scale(1.05);
  }
 
 /* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) { 
+@media (max-width: 992px) { 
+  
+  .mv-main-tokeninfo{
+    background-image: url("https://musksvision.com/img/info-bg-sm.png");
+    background-size: unset;
+    background-attachment: unset;
+    color: white;
+    background-repeat: repeat-y;
+  }
 
+  .mv-main-tokenomics{
+    background-image: url("https://musksvision.com/img/tokenomics-bg-sm.png");
+    background-size: unset;
+    background-attachment: unset;
+    background-repeat: repeat-y;
+  }
+  
+  .mv-main-community{
+    background-image: url("https://musksvision.com/img/community-bg.png");
+    background-size: unset;
+    background-attachment: unset;
+    background-position: 50% 0%;
+  }
+  
+  .mv-main-htb{
+    background-image: url("https://musksvision.com/img/htb-bg-sm.png");
+    color: white;
+    background-size: unset;
+    background-attachment: unset;
+    background-repeat: repeat-y;
+  }
+  
+  .mv-main-mission{
+    background-image: url("https://musksvision.com/img/vision-bg.png");
+    color: white;
+    background-size: unset;
+    background-attachment: unset;
+    background-position: 50% 0%;
+  }
 
 }
-
-/* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) { 
-
- }
-
-/* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) { 
-
- }
-
