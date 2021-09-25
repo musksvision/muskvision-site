@@ -338,7 +338,7 @@ transform: scale(1.05);
   }
   
   .mv-main-community{
-    background-image: url("https://musksvision.com/img/community-bg.png");
+    background-image: url("https://musksvision.com/img/community-md.png");
     background-size: unset;
     background-attachment: unset;
     background-position: 50% 0%;
@@ -353,7 +353,7 @@ transform: scale(1.05);
   }
   
   .mv-main-mission{
-    background-image: url("https://musksvision.com/img/vision-bg.png");
+    background-image: url("https://musksvision.com/img/vision-md.png");
     color: white;
     background-size: unset;
     background-attachment: unset;
