@@ -1,5 +1,7 @@
-var div_url = "#" + window.location.href.split("#")[1]
-scroll_to(div_url, 100, flag=true);
+if (window.location.href.split("#").length >= 2) {
+  var div_url = "#" + window.location.href.split("#")[1];
+  scroll_to(div_url, 100, flag=true);
+}
 
 function scroll_to(clicked_link, nav_height, flag=false) {
   if (flag == false) {
