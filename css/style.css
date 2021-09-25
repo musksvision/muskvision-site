@@ -280,7 +280,7 @@ transform: scale(1.05);
 }
 
 /* Small devices (landscape phones, 576px and up) */
-@media (max-width: 600px) {
+@media only screen and (max-width: 600px) {
 
   .mv-main-tokeninfo{
     background-image: url("https://musksvision.com/img/info-bg-sm.png");
