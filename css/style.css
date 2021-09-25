@@ -212,7 +212,7 @@ footer{
 }
 
 .mv-main-htb{
-  /* background-image: url("https://musksvision.com/img/htb-bg.png"); */
+  background-image: url("https://musksvision.com/img/htb-bg.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
