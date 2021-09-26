@@ -111,6 +111,12 @@ h3.mv-heading3-large
     cursor: pointer;
 }
 
+#mv-copy-button-buy
+{
+    color:black;
+    cursor: pointer;
+}
+
 #mv-home::before,
 #mv-tokenomics::before,
 #mv-buy::before,
