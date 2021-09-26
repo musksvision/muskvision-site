@@ -39,6 +39,16 @@ function copyText() {
     $('#mv-copy-button').text('Copied');
 } 
 
+function copyTextBuy() {
+    var $temp = $("<input>");
+    var $url = $("#mv-contract-address").text().replace("                       ", "");
+    $("body").append($temp);
+    $temp.val($url).select();
+    document.execCommand("copy");
+    $temp.remove();
+    $('#mv-copy-button-buy').text('Copied');
+} 
+
 particlesJS('particles-js', {
     "particles": {
       "number": {
