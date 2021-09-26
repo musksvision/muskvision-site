@@ -31,7 +31,10 @@ $('a.scroll-link').on('click', function(e) {
 
 function copyText() {
     var $temp = $("<input>");
-    var $url = $("#mv-contract-address").text().replace("                       ", "");
+    var $url = $("#mv-contract-address").text()
+    while ($url.includes(" ")) {
+      $url = $url.replace(" ","")
+    }
     $("body").append($temp);
     $temp.val($url).select();
     document.execCommand("copy");
@@ -41,7 +44,13 @@ function copyText() {
 
 function copyTextBuy() {
     var $temp = $("<input>");
-    var $url = $("#mv-contract-address").text().replace("                       ", "");
+    var $url = $("#mv-contract-address").text()
+    if ($url.includes("Copied")) {
+     $url = $url.replace("Copied","") 
+    }
+    while ($url.includes(" ")) {
+      $url = $url.replace(" ","")
+    }
     $("body").append($temp);
     $temp.val($url).select();
     document.execCommand("copy");
