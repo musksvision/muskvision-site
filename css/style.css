@@ -13,12 +13,13 @@ body {
 
 .navbar {
   height: 85px;
+  padding: 0px 0px;
 }
 
 .navbar-brand {
   padding-top: 0px;
   padding-bottom: 0px;
-  margin-left: -5px;
+  margin-left: 10px;
 }
 
 .muskvision-header
