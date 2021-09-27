@@ -92,7 +92,10 @@ h3.mv-heading3-large
 
 .mv-description{
   font-size:larger;
-    
+}
+
+.mv-description-tokenomics{
+  font-size:normal;   
 }
 
 .mv-description-htb{
@@ -248,6 +251,12 @@ footer{
   padding: 0% 2% 10% 2%;
 }
 
+.muskvision-tokeninfo-border
+{
+  border:solid;
+  border-color:#343a4000;
+}
+
 .mv-main-tokenomics,
 .muskvision-buy,
 .mv-main-mission,
@@ -263,6 +272,26 @@ footer{
 
 .token-info-heading{
   padding: 2% 0% 0% 0%;   
+}
+
+.tokenomics-feature-box {
+max-width: 360px;
+min-height: 500px;
+border-radius: 20px;
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+transition:all 0.3s ease;
+box-shadow: 0px 0px 50px 5px rgba(0, 0, 0, 0.75);
+position: relative;
+background-color: rgba(255, 255, 255, 0.8);
+padding: 10% 3% 2% 3%;
+}
+
+.tokenomics-feature-box:hover {
+-webkit-transform: scale(1.05);
+-ms-transform: scale(1.05);
+transform: scale(1.05);
 }
 
 .htb-feature-box {
@@ -329,6 +358,10 @@ transform: scale(1.05);
 @media only screen and (min-width: 768px) and (max-width: 925px) { 
   .htb-description{
     min-height: 530px;
+  }
+   
+  .tokenomics-feature-box {
+    min-height: 620px;
   }
     
 @media only screen and (min-width: 700px) and (max-width: 992px) { 
