@@ -70,22 +70,26 @@ h3.mv-heading3
     font-weight: bold;
 }
 
-h3.mv-heading3-large
+h3.mv-comm-heading-main
 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 2px;
+}
+
+h3.mv-tokenomics-heading-main{
     font-family: 'Oswald', sans-serif;
     font-size: 50px;
     font-weight: bold;
 }
 
-
 .mv-icons{
     width:100px;
-    height:100px;
 }
 
 .mv-icon-large{
     width:200px;
-    height:200px;
 }
 
 .mv-icon-large-1{
@@ -112,9 +116,20 @@ h3.mv-heading3-large
   margin-top: 5%;
 }
 
-.mv-description-large{
+.mv-description-tokenomics-main{
     font-size:larger;
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 4%;
+}
 
+.mv-description-comm{
+    font-size:larger;
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    width: 85%;
+    padding-left: 15%;
 }
 
 #mv-copy-button
@@ -325,7 +340,51 @@ transform: scale(1.05);
 
 /* Small devices (landscape phones, 576px and down) */
 @media only screen and (max-width: 600px) {  
-   .mv-buy-img{
+  .mv-icon-large{
+    width:50%;
+  }
+
+  .mv-description-tokenomics-main{
+    font-size:95%;
+  }
+
+  .mv-description-comm{
+    font-size:95%;
+    text-align: left;
+    padding-top: 3%;
+    padding-bottom: 15%;
+    width: 100%;
+    padding-left: 0%;
+  }
+
+  .mv-vision-description{
+    font-size: 95%
+  }
+
+  h3.mv-comm-heading-main
+  {
+    font-family: 'Oswald', sans-serif;
+    font-size: 147%;
+    font-weight: bold;
+  }
+
+  h3.mv-tokenomics-heading-main
+  {
+    font-family: 'Oswald', sans-serif;
+    font-size: 147%;
+    font-weight: bold;
+    padding-top: 6%;
+  }
+
+  .mv-description {
+    font-size: 98%;
+  }
+
+  .token-info-heading{
+    font-size: 95%;
+  }
+    
+  .mv-buy-img{
     width:40%;
   }
 
