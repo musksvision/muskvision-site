@@ -16,8 +16,8 @@ body {
 }
 
 .navbar-brand {
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   margin-left: 10px;
 }
 
@@ -27,7 +27,7 @@ body {
 
 .muskvision-header
 {
-  height: 100px;
+  height: 90px;
 }
 
 header, footer {
