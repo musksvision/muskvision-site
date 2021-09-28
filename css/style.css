@@ -22,6 +22,10 @@ body {
   margin-left: 10px;
 }
 
+.navbar-brand img{
+  max-width:220px;
+}
+
 .muskvision-header
 {
   height: 100px;
