@@ -1,7 +1,7 @@
 if (window.location.href.split("#").length >= 2) {
   var div_url = "#" + window.location.href.split("#")[1];
   if (div_url != "#")
-    scroll_to(div_url, 90, flag=true);
+    scroll_to(div_url, 80, flag=true);
 }
 
 function scroll_to(clicked_link, nav_height, flag=false) {
@@ -26,7 +26,7 @@ $('a.scroll-link').on('click', function(e) {
     $(".navbar-nav li a").removeClass("active");
     $(this).addClass("active");
     $(".navbar-collapse").collapse("hide");
-    scroll_to($(this), 90);
+    scroll_to($(this), 80);
 });
 
 function copyText() {
