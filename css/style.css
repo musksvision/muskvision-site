@@ -476,6 +476,18 @@ transform: scale(1.05);
     min-height: 105%;
     font-size: 90%;
   }
+  
+  .mv-description-comm{
+    width: 100%;
+    padding-left: 0%;
+  }
+
+  .mv-main-mission{
+    background-image: url("https://musksvision.com/img/vision-bg-mdl.png");
+    color: white;
+    background-size: unset;
+    background-attachment: unset;
+  }
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -492,5 +504,39 @@ transform: scale(1.05);
   .tokenomics-feature-box {
     min-height: 105%;
     font-size: 85%;
+  }
+    
+  .mv-description-comm{
+    width: 100%;
+    padding-left: 0%;
+  }
+
+  .mv-main-mission{
+    background-image: url("https://musksvision.com/img/vision-bg-md.png");
+    color: white;
+    background-size: unset;
+    background-attachment: unset;
+  }
+
+  .mv-buy-img{
+    width:30%;
+  }
+
+  .mv-icons{
+    width:30%;
+  }
+
+  .mv-description-tokenomics {
+    font-size: 95%;
+  }
+
+  .mv-description-htb {
+    font-size: 95%
+  }
+
+  #particles-js {
+  position : absolute;
+  width:100%;
+  height:45%;
   }
 }
