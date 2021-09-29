@@ -461,6 +461,13 @@ transform: scale(1.05);
     min-height: 105%;
     font-size: 95%;
   }
+  
+  .mv-main-mission{
+    background-image: url("https://musksvision.com/img/vision-bg-mdxl.png");
+    color: white;
+    background-size: unset;
+    background-attachment: unset;
+  }
 }
 
 /* Medium devices (901px to 1000px) */
