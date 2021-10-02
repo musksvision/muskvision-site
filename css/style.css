@@ -11,6 +11,30 @@ body {
     text-align: center;
 }
 
+header, footer {
+    font-family: 'Cantora One', sans-serif;
+    font-size : 20px;
+    text-transform: uppercase;
+    color:white;
+}
+
+body,
+header,
+footer{
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.mv-back-to-top{
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  z-index: 999999;
+  display:flex;
+  opacity: 50%;
+}
+
+/*Navbar Related*/
 .navbar {
   padding: 0px 0px;
 }
@@ -30,29 +54,42 @@ body {
   height: 90px;
 }
 
-header, footer {
-    font-family: 'Cantora One', sans-serif;
-    font-size : 20px;
-    text-transform: uppercase;
-    color:white;
+.nav-link, a
+{
+    color:#F2F2F2;
+    cursor: pointer;
 }
 
+.mv-btn-nav {
+  font-family: 'Cantora One', sans-serif;
+  font-size: 20px;
+  color: #ffff;
+  letter-spacing: 1px;
+  border: 2px solid #ffff;
+  border-radius: 40px;
+  background: transparent;
+  transition: all 0.3s ease 0s;
+  text-align: center;
+}
+
+.mv-btn-nav:hover {
+  color: #1a1a1a;
+  background: #ffff;
+  border: 2px solid #ffff;
+}
+
+/*Footer Related*/
 .footer-copyright {
     text-transform:none;
     font-size:17px;
     font-family:'GlacialIndifferenceRegular';
 }
 
+/*Particles Related*/
 #particles-js {
   position : absolute;
   width:100%;
   height:92%;
-}
-
-.nav-link, a
-{
-    color:#F2F2F2;
-    cursor: pointer;
 }
 
 a:hover, .active
@@ -60,6 +97,7 @@ a:hover, .active
     color: #bfbfbf;
 }
 
+/*Headings*/
 h2.mv-heading2{
     text-transform: uppercase;
     font-weight: bold;
@@ -70,20 +108,6 @@ h2.mv-heading2{
 h3.mv-heading3
 {
     font-family: 'Oswald', sans-serif;
-    font-weight: bold;
-}
-
-h3.mv-comm-heading-main
-{
-    font-family: 'Oswald', sans-serif;
-    font-size: 50px;
-    font-weight: bold;
-    margin-top: 2px;
-}
-
-h3.mv-tokenomics-heading-main{
-    font-family: 'Oswald', sans-serif;
-    font-size: 50px;
     font-weight: bold;
 }
 
@@ -104,37 +128,11 @@ h3.mv-tokenomics-heading-main{
     height:250px;
 }
 
-.mv-buy-img{
-  width:40%;
-}
-
 .mv-description{
   font-size:larger;
 }
 
-.mv-description-htb{
-  padding: 3% 0% 3% 6%;
-  text-align: left;
-  min-height: 325px;
-  margin-top: 5%;
-}
-
-.mv-description-tokenomics-main{
-    font-size:larger;
-    text-align: center;
-    padding-top: 2%;
-    padding-bottom: 4%;
-}
-
-.mv-description-comm{
-    font-size:larger;
-    text-align: center;
-    padding-top: 2%;
-    padding-bottom: 2%;
-    width: 85%;
-    padding-left: 15%;
-}
-
+/*Copy Button*/
 #mv-copy-button
 {
     color:#004d00;
@@ -145,6 +143,16 @@ h3.mv-tokenomics-heading-main{
 {
     color:#004d00;
     cursor: pointer;
+}
+
+/*Sections Common properties*/
+.mv-main-tokenomics,
+.muskvision-buy,
+.mv-main-mission,
+.muskvision-community,
+.mv-main-roadmap
+{
+  padding: 0% 2% 4% 2%;
 }
 
 #mv-home::before,
@@ -169,13 +177,7 @@ visibility: hidden;
   word-wrap:break-word;
 }
 
-body,
-header,
-footer{
-  width: 100%;
-  overflow-x: hidden;
-}
-
+/*Home Section*/
 .mv-btn {
   font-family: 'GlacialIndifferenceRegular';
   font-size: 25px;
@@ -194,33 +196,17 @@ footer{
   border: 2px solid #1A1A1A;
 }
 
-.mv-btn-nav {
-  font-family: 'Cantora One', sans-serif;
-  font-size: 20px;
-  color: #ffff;
-  letter-spacing: 1px;
-  border: 2px solid #ffff;
-  border-radius: 40px;
-  background: transparent;
-  transition: all 0.3s ease 0s;
-  text-align: center;
+.muskvision-home{
+  padding: 0% 2% 5% 2%;
+}
+    
+.mv-transaction-home{
+  padding: 0% 2% 4% 2%;
+  height: 50%;
 }
 
-.mv-btn-nav:hover {
-  color: #1a1a1a;
-  background: #ffff;
-  border: 2px solid #ffff;
-}
 
- .mv-back-to-top{
-  position: fixed;
-  bottom: 30px;
-  right: 30px;
-  z-index: 999999;
-  display:flex;
-  opacity: 50%;
-}
-
+/*Token Info Section*/
 .mv-main-tokeninfo{
   background-image: url("https://musksvision.com/img/info-bg.png");
   background-repeat: no-repeat;
@@ -229,50 +215,14 @@ footer{
   background-attachment: fixed;
 }
 
-.mv-main-tokenomics{
-  background-image: url("https://musksvision.com/img/tokenomics-bg.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  height:100%;
-}
-
-.mv-main-community{
-  background-image: url("https://musksvision.com/img/community-bg.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  height:100%;
-  width: 100%;
-}
-
-.mv-main-htb{
-  background-image: url("https://musksvision.com/img/htb-bg.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  height:100%;
-  color: white;
-}
-
-.mv-main-mission
-{
-  background-image: url("https://musksvision.com/img/vision-bg.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  height:100%;
-  color: white;
+.token-info-heading{
+  padding: 2% 0% 0% 0%;   
 }
 
 .muskvision-tokeninfo{
   color: white;
 }
 
-.muskvision-home{
-  padding: 0% 2% 5% 2%;
-}
-    
 .muskvision-tokeninfo
 {
   padding: 0% 2% 10% 2%;
@@ -284,21 +234,13 @@ footer{
   border-color:#343a4000;
 }
 
-.mv-main-tokenomics,
-.muskvision-buy,
-.mv-main-mission,
-.muskvision-community
-{
-  padding: 0% 2% 4% 2%;
-}
-
-.mv-transaction-home{
-  padding: 0% 2% 4% 2%;
-  height: 50%;
-}
-
-.token-info-heading{
-  padding: 2% 0% 0% 0%;   
+/*Ecosystem(Tokenomics) Section CSS*/
+.mv-main-tokenomics{
+  background-image: url("https://musksvision.com/img/tokenomics-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height:100%;
 }
 
 .tokenomics-feature-box {
@@ -321,6 +263,29 @@ padding: 10% 3% 2% 3%;
 transform: scale(1.05);
 }
 
+.mv-description-tokenomics-main{
+    font-size:larger;
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 4%;
+}
+
+h3.mv-tokenomics-heading-main{
+    font-family: 'Oswald', sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+/*How To Buy Section*/
+.mv-main-htb{
+  background-image: url("https://musksvision.com/img/htb-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height:100%;
+  color: white;
+}
+
 .htb-feature-box {
 max-width: 360px;
 min-height: 100%;
@@ -339,6 +304,95 @@ padding: 3% 3% 3% 3%;
 -webkit-transform: scale(1.05);
 -ms-transform: scale(1.05);
 transform: scale(1.05);
+}
+
+.mv-buy-img{
+  width:40%;
+}
+
+.mv-description-htb{
+  padding: 3% 0% 3% 6%;
+  text-align: left;
+  min-height: 325px;
+  margin-top: 5%;
+}
+
+/*Community Section*/
+.mv-main-community{
+  background-image: url("https://musksvision.com/img/community-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height:100%;
+  width: 100%;
+}
+
+.mv-description-comm{
+    font-size:larger;
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    width: 85%;
+    padding-left: 15%;
+}
+
+h3.mv-comm-heading-main
+{
+    font-family: 'Oswald', sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 2px;
+}
+
+/*Mission Section*/
+.mv-main-mission
+{
+  background-image: url("https://musksvision.com/img/vision-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height:100%;
+  color: white;
+}
+
+.mission-feature-box {
+max-width: 600px;
+min-height: 25%;
+border-radius: 20px;
+text-align: left;
+margin-left: auto;
+margin-right: auto;
+transition:all 0.3s ease;
+box-shadow: 0px 0px 10px 10px rgba(255, 255, 255, 0.08);
+position: relative;
+background-color: rgba(0, 0, 0, 0.8);
+padding: 3% 3% 3% 3%;
+margin-bottom: 8%;
+}
+
+.mission-feature-box:hover {
+-webkit-transform: scale(1.05);
+-ms-transform: scale(1.05);
+transform: scale(1.05);
+}
+
+.vision-img{
+  width: 60%;
+}
+
+.vision-img-box{
+  text-align: center;
+}
+
+/*Roadmap Section*/
+.mv-main-roadmap
+{
+  background-image: url("https://musksvision.com/img/roadmap-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height:100%;
+  color: black;
 }
 
 /* Small devices (landscape phones, 576px and down) */
@@ -410,6 +464,22 @@ transform: scale(1.05);
     min-height: 100%;
   }
 
+  .mission-feature-box {
+    min-height: 26%;
+    font-size: 95%;
+    margin-bottom: 8%
+  }
+
+  .vision-img{
+    width: 20%;
+    text-align: center;
+  }
+
+  .vision-img-box{
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+
   .mv-main-tokeninfo{
     background-image: url("https://musksvision.com/img/info-bg-sm.png");
     background-size: unset;
@@ -446,53 +516,26 @@ transform: scale(1.05);
   }
  }
 
-/* Medium devices (1001px to 1100px) */
-@media only screen and (min-width: 1001px) and (max-width: 1100px) {
-  .htb-feature-box{
-    min-height: 100%;
+ /* Medium devices (tablets, 600px and 768px) */
+@media only screen and (min-width: 601px) and (max-width: 767px) { 
+  .mission-feature-box {
+    min-height: 25%;
     font-size: 95%;
+    margin-bottom: 8%
   }
 
-  .mv-description-htb {
-    min-height: 350px;
+  .vision-img{
+    width: 20%;
+    text-align: center;
   }
 
-  .tokenomics-feature-box {
-    min-height: 105%;
-    font-size: 95%;
-  }
-  
-  .mv-main-mission{
-    background-image: url("https://musksvision.com/img/vision-bg-mdxl.png");
-    color: white;
-    background-size: unset;
-    background-attachment: unset;
-  }
-}
-
-/* Medium devices (901px to 1000px) */
-@media only screen and (min-width: 901px) and (max-width: 1000px) {
-  .htb-feature-box{
-    min-height: 100%;
-    font-size: 90%;
-  }
-
-  .mv-description-htb {
-    min-height: 340px;
-  }
-
-  .tokenomics-feature-box {
-    min-height: 105%;
-    font-size: 90%;
-  }
-  
-  .mv-description-comm{
-    width: 100%;
-    padding-left: 0%;
+  .vision-img-box{
+    margin-top: 5%;
+    margin-bottom: 5%;
   }
 
   .mv-main-mission{
-    background-image: url("https://musksvision.com/img/vision-bg-mdl.png");
+    background-image: url("https://musksvision.com/img/vision-bg-md.png");
     color: white;
     background-size: unset;
     background-attachment: unset;
@@ -501,9 +544,24 @@ transform: scale(1.05);
 
 /* Medium devices (tablets, 768px and up) */
 @media only screen and (min-width: 768px) and (max-width: 900px) { 
-    .htb-feature-box{
+  .htb-feature-box{
     min-height: 100%;
     font-size: 85%;
+  }
+
+  .mission-feature-box {
+    min-height: 25%;
+    font-size: 95%;
+  }
+
+  .vision-img{
+    width: 20%;
+    text-align: center;
+  }
+
+  .vision-img-box{
+    margin-top: 5%;
+    margin-bottom: 5%;
   }
 
   .mv-description-htb {
@@ -547,5 +605,79 @@ transform: scale(1.05);
   position : absolute;
   width:100%;
   height:45%;
+  }
+}
+
+/* Medium devices (901px to 1000px) */
+@media only screen and (min-width: 901px) and (max-width: 1000px) {
+  .htb-feature-box{
+    min-height: 100%;
+    font-size: 90%;
+  }
+
+  .mission-feature-box {
+    min-height: 25%;
+    font-size: 95%;
+  }
+
+  .mv-description-htb {
+    min-height: 340px;
+  }
+
+  .tokenomics-feature-box {
+    min-height: 105%;
+    font-size: 90%;
+  }
+  
+  .mv-description-comm{
+    width: 100%;
+    padding-left: 0%;
+  }
+
+  .vision-img{
+    width: 20%;
+    text-align: center;
+  }
+
+  .vision-img-box{
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+
+  .mv-main-mission{
+    background-image: url("https://musksvision.com/img/vision-bg-mdl.png");
+    color: white;
+    background-size: unset;
+    background-attachment: unset;
+  }
+}
+
+/* Medium devices (1001px to 1100px) */
+@media only screen and (min-width: 1001px) and (max-width: 1100px) {
+  .htb-feature-box{
+    min-height: 100%;
+    font-size: 95%;
+  }
+
+  .mission-feature-box {
+    min-height: 25%;
+    font-size: 95%;
+    margin-bottom: 5%;
+  }
+
+  .mv-description-htb {
+    min-height: 350px;
+  }
+
+  .tokenomics-feature-box {
+    min-height: 105%;
+    font-size: 95%;
+  }
+  
+  .mv-main-mission{
+    background-image: url("https://musksvision.com/img/vision-bg-mdxl.png");
+    color: white;
+    background-size: unset;
+    background-attachment: unset;
   }
 }
