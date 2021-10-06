@@ -234,6 +234,14 @@ visibility: hidden;
   border-color:#343a4000;
 }
 
+.price-widget{
+  margin-top: 5%;
+}
+
+.nomics-ticker-widget-embedded{
+  margin: auto;
+}
+
 /*Ecosystem(Tokenomics) Section CSS*/
 .mv-main-tokenomics{
   background-image: url("https://musksvision.com/img/tokenomics-bg.png");
