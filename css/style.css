@@ -663,8 +663,6 @@ transform: scale(1.05);
     
  .mv-main-roadmap{
     background-image: url("https://musksvision.com/img/roadmap-bg-sm.png");
-    color: white;
-    background-size: unset;
     background-attachment: unset;
   }
  }
