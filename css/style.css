@@ -621,6 +621,10 @@ transform: scale(1.05);
     margin-top: 5%;
     margin-bottom: 5%;
   }
+  
+  .card.card-carousel {
+    width: 100%;
+  }
 
   .mv-main-tokeninfo{
     background-image: url("https://musksvision.com/img/info-bg-sm.png");
