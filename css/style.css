@@ -625,6 +625,10 @@ transform: scale(1.05);
   .card.card-carousel {
     width: 100%;
   }
+    
+  .carousel .carousel-indicators {
+    bottom: -15px;
+  }
 
   .mv-main-tokeninfo{
     background-image: url("https://musksvision.com/img/info-bg-sm.png");
