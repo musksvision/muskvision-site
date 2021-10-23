@@ -37,6 +37,7 @@ footer{
 /*Navbar Related*/
 .navbar {
   padding: 0px 0px;
+  background-color: black;
 }
 
 .navbar-brand {
@@ -240,6 +241,18 @@ visibility: hidden;
 
 .nomics-ticker-widget-embedded{
   margin: auto;
+}
+
+.token-distribution{
+  margin-top: 5%;	
+}
+
+.token-distribution-img{
+  width: 60%;
+}
+
+.token-chart-distribution-heading{
+  padding: 2% 0% 3% 0%;  
 }
 
 /*Ecosystem(Tokenomics) Section CSS*/
@@ -539,6 +552,18 @@ transform: scale(1.05);
 
 /* Small devices (landscape phones, 576px and down) */
 @media only screen and (max-width: 600px) {  
+  .navbar {
+    font-size: 82%;
+  }
+
+  .token-distribution-img{
+    width: 100%;
+  }
+
+  .token-chart-distribution-heading{
+    padding: 10% 0% 3% 0%;   
+  }
+    
   .mv-icon-large{
     width:50%;
   }
@@ -673,6 +698,10 @@ transform: scale(1.05);
 
  /* Medium devices (tablets, 600px and 768px) */
 @media only screen and (min-width: 601px) and (max-width: 767px) { 
+  .navbar {
+    font-size: 82%;
+  }
+
   .mission-feature-box {
     min-height: 25%;
     font-size: 95%;
@@ -698,7 +727,11 @@ transform: scale(1.05);
 }
 
 /* Medium devices (tablets, 768px and up) */
-@media only screen and (min-width: 768px) and (max-width: 900px) { 
+@media only screen and (min-width: 768px) and (max-width: 900px) {
+  .navbar {
+    font-size: 82%;
+  }
+
   .htb-feature-box{
     min-height: 100%;
     font-size: 85%;
@@ -765,6 +798,10 @@ transform: scale(1.05);
 
 /* Medium devices (901px to 1000px) */
 @media only screen and (min-width: 901px) and (max-width: 1000px) {
+  .navbar {
+    font-size: 82%;
+  }
+
   .htb-feature-box{
     min-height: 100%;
     font-size: 90%;
@@ -809,6 +846,10 @@ transform: scale(1.05);
 
 /* Medium devices (1001px to 1100px) */
 @media only screen and (min-width: 1001px) and (max-width: 1100px) {
+  .navbar {
+    font-size: 82%;
+  }
+
   .htb-feature-box{
     min-height: 100%;
     font-size: 95%;
