@@ -561,6 +561,7 @@ transform: scale(1.05);
   }
 
   .token-chart-distribution-heading{
+    font-size: 90%;
     padding: 10% 0% 3% 0%;   
   }
     
