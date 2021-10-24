@@ -185,8 +185,3 @@ particlesJS('particles-js', {
       "background_size": "cover"
     }
   })
-
-function alert_after_submission()
-{
-    alert("Your query has been submitted successfully. Thanks!");
-}
