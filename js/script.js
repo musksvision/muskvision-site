@@ -58,6 +58,22 @@ function copyTextBuy() {
     $('#mv-copy-button-buy').text('Copied');
 } 
 
+function copyTextMarDev(address, button_address) {
+  var $temp = $("<input>");
+  var $url = $(address).text()
+  if ($url.includes("Copied")) {
+   $url = $url.replace("Copied","") 
+  }
+  while ($url.includes(" ")) {
+    $url = $url.replace(" ","")
+  }
+  $("body").append($temp);
+  $temp.val($url).select();
+  document.execCommand("copy");
+  $temp.remove();
+  $(button_address).text('Copied');
+} 
+
 particlesJS('particles-js', {
     "particles": {
       "number": {
@@ -169,3 +185,8 @@ particlesJS('particles-js', {
       "background_size": "cover"
     }
   })
+
+function alert_after_submission()
+{
+    alert("Your query has been submitted successfully. Thanks!");
+}

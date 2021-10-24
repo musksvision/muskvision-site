@@ -157,6 +157,24 @@
                     <div class="token-distribution" data-aos="fade-up" data-aos-delay="200">
                         <h3 class="mv-heading3 token-chart-distribution-heading text-left">Token Distribution</h3>
                         <img class="token-distribution-img" src="https://musksvision.com/img/token-distribution.png" alt="MuskVision Token Distribution">
+                        <div data-aos="fade-up" data-aos-delay="200" class="row border border-light ml-1 mr-n1 mt-5" style="border-radius:20px;">
+                            <div class="col-md-6 col-sm-12 muskvision-tokeninfo-border">
+                                <h3 class="mv-heading3 token-info-heading">Marketing Address</h3>
+                                <div class="mv-description mb-2 pb-sm-2" id="mv-market-contract-address">0xb46b48Efc0c2eB6A019068982155F7eD6F0884D9
+                                <span id="mv-mar-copy-button">
+                                    <i class="fa fa-clone" aria-hidden="true" onclick="copyTextMarDev('#mv-market-contract-address','#mv-mar-copy-button')"></i>
+                                </span>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-sm-12 muskvision-tokeninfo-border">
+                                <h3 class="mv-heading3 token-info-heading">Development Address</h3>
+                                <div class="mv-description mb-2 pb-sm-2" id="mv-dev-contract-address">0x6FEa3df3465d7cB4Fbe86729fd1084c0713f4165
+                                <span id="mv-dev-copy-button">
+                                    <i class="fa fa-clone" aria-hidden="true" onclick="copyTextMarDev('#mv-dev-contract-address','#mv-dev-copy-button')"></i>
+                                </span>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </section>
@@ -441,12 +459,54 @@
     </div>
     <a class="mv-back-to-top btn text-right" href="#mv-home"><img src="https://musksvision.com/img/top-btn.png" alt="Musk Vision Token"></a>
 
+    <!-- Contact Form -->
+    <div class="mv-main-contact-form">
+        <section class="muskvision-contact-form" id="mv-contact">
+            <div class="container-fluid pt-5">
+                <h2 class="mv-heading2" data-aos-delay="200">Contact Us</h2>
+                <div class="row pt-5">
+                    <div class="col-md-8 contact-us-heading">
+                        <h3 class="mv-heading3 text-left">Have questions or suggestions? Drop us a message.</h3>
+                    </div>
+                    <div class="col-12">
+                        <form id="contact-form" class="pt-5" action="https://formsubmit.co/9aa52475a9f41884c35ff9e34aca2219" method="POST" onsubmit="alert_after_submission()">
+                            <div class="form-group col-md-8 mv-form-element">
+                                <label for="mv-contact-name">Your name (required)</label>
+                                <input type="mv-contact-name" class="form-control" id="mv-contact-name" name="Sender Name" placeholder="Your Name" required>
+                            </div>
+                            <div class="form-row col-md-8 mv-form-element">
+                                <div class="form-group col-md-6">
+                                    <label for="email">Your Email (required)</label>
+                                    <input type="email" class="form-control" id="mv-contact-email" name="Sender Email" placeholder="Your Email" required>
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <label for="mv-contact-subject">Subject</label>
+                                    <input type="mv-contact-subject" class="form-control" id="mv-contact-subject" name="Subject" placeholder="Anything specific?">
+                                </div>
+                            </div>
+                            <div class="form-group col-md-8 mv-form-element">
+                                <label for="mv-contact-message">Your Message</label>
+                                <textarea type="mv-contact-message" class="form-control" id="mv-contact-message" name="Message" placeholder="Message" style="margin-top: 30px; margin-bottom: 0px; height: 147px;"></textarea>
+                            </div>
+                            <div class="form-group col-md-8 mv-form-element text-right">
+                                <button type="submit" class="btn btn-secondary btn-lg">SEND</button>
+                            </div>
+                            <input type="hidden" name="_captcha" value="false">
+                            <input type="hidden" name="_next" value="https://musksvision.com/#mv-contact">
+                            <input type="hidden" name="_template" value="table">
+                            <input type="hidden" name="_subject" value="Musk Vision Contact Us Form">
+                        </form>
+                </div>
+            </div>
+            </div>
+        </section>
+    </div>
 
     <!-- Footer -->
     <footer class="footer" style="background-color: black; width:100%">
         <div class="container">
             <div class="row" id="mv-contact">
-                <div class="col-md-12 py-5">
+                <div class="col-md-12 py-2">
                     <div class="d-flex justify-content-center ml-md-5">  
                         <!-- Twitter -->
                         <a class="tw-ic" target="_blank" href="https://twitter.com/MusksVision">

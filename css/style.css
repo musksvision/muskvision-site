@@ -134,7 +134,7 @@ h3.mv-heading3
 }
 
 /*Copy Button*/
-#mv-copy-button
+#mv-copy-button, #mv-mar-copy-button, #mv-dev-copy-button
 {
     color:#004d00;
     cursor: pointer;
@@ -151,7 +151,8 @@ h3.mv-heading3
 .muskvision-buy,
 .mv-main-mission,
 .muskvision-community,
-.mv-main-roadmap
+.mv-main-roadmap,
+.mv-main-contact-form
 {
   padding: 0% 2% 4% 2%;
 }
@@ -170,7 +171,7 @@ content: " ";
 visibility: hidden;
 }
 
-#mv-contract-address
+#mv-contract-address, #mv-market-contract-address, #mv-dev-contract-address
 {
   font-size: 19px;
   display:block;
@@ -549,6 +550,27 @@ transform: scale(1.05);
     margin: auto;
 }
 
+/* Contact Form */
+.mv-main-contact-form{
+  background-color: black;
+  color: white;
+}
+
+#contact-form{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mv-form-element{
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+}
+
+.contact-us-heading{
+  margin-left: auto;
+  margin-right: auto;
+}
 
 /* Small devices (landscape phones, 576px and down) */
 @media only screen and (max-width: 600px) {  
